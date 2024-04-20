@@ -1,0 +1,40 @@
+.hero-list-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.hero-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    flex-wrap: wrap;
+}
+
+.hero-detail {
+    width: 88.5vw;
+    min-height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: max(100%, 80%);
+    background-position: center;
+}
+
+.hero-selected {
+    animation: 0.1s selected 1 ease;
+    animation-fill-mode: forwards;
+    border: 1px solid;
+    border-image: linear-gradient(130deg, #fcfc03, #afaf0b);
+    border-image-slice: 1;
+}
+
+@keyframes selected {
+    100% {
+        border-width: 2px;
+    }
+
+}

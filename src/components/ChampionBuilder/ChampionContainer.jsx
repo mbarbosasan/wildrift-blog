@@ -8,9 +8,11 @@ export const ChampionContainer = () => {
     const [championSelected, setChampionSelected] = useState({id: '-1', name: 'None'})
 
     return (
-        <div className={"hero-list-container"}>
-            <ChampionDetail championSelected={championSelected}/>
-            <ChampionListIcon setChampionSelected={(event) => setChampionSelected(event)} championSelected={championSelected}/>
-        </div>
+        <main className="flex justify-center">
+            <div className="flex flex-col w-5/6">
+                <ChampionDetail championSelected={championSelected} setChampionSelected={(hero) => setChampionSelected(hero)}/>
+                <ChampionListIcon setChampionSelected={(event) => setChampionSelected(event)} championSelected={championSelected}/>
+            </div>
+        </main>
     )
 }

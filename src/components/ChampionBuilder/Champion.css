@@ -1,27 +1,17 @@
-.hero-list-container {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    flex-direction: column;
-}
 
 .hero-list {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90vw;
     flex-wrap: wrap;
 }
 
-.hero-detail {
-    width: 88.5vw;
-    min-height: 600px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-repeat: no-repeat;
-    background-size: max(100%, 80%);
-    background-position: center;
+.hero-detail-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-space: 1rem;
+    color: #fcfc03;
 }
 
 .hero-selected {

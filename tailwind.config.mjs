@@ -18,7 +18,9 @@ primary: {
 				},
 			},
 			fontFamily: {
-				display: 'Inter'
+				display: 'BeaufortforLOL',
+				body: 'BeaufortforLOL',
+				serif: 'Spiegel'
 			}
 		},
 	},

@@ -1,5 +1,36 @@
+
+@font-face {
+	font-family: 'BeaufortforLOL';
+	src: url('../../public/fonts/BeaufortforLOL-Regular.ttf') format('truetype')
+}
+
+@font-face {
+	font-family: 'BeaufortforLOL';
+	src: url('../../public/fonts/BeaufortforLOL-Bold.ttf') format('truetype')
+}
+
+@font-face {
+	font-family: 'BeaufortforLOL';
+	src: url('../../public/fonts/BeaufortforLOL-Heavy.ttf') format('truetype')
+}
+
+@font-face {
+	font-family: 'BeaufortforLOL';
+	src: url('../../public/fonts/BeaufortforLOL-Light.ttf') format('truetype')
+}
+
+@font-face {
+	font-family: 'BeaufortforLOL';
+	src: url('../../public/fonts/BeaufortforLOL-Medium.ttf') format('truetype')
+}
+
+@font-face {
+	font-family: 'Spiegel';
+	src: url('../../public/fonts/Spiegel_TT_Regular.ttf') format('truetype')
+}
+
 body {
-	font-family: 'Atkinson', sans-serif;
+	font-family: 'BeaufortforLOL', sans-serif;
 	margin: 0;
 	padding: 0;
 	text-align: left;

@@ -1,6 +1,7 @@
 import championSummary from "../../../public/assets/json/champion-summary.json";
 import {useEffect, useState} from "react";
 import {ChampionRoles} from "./ChampionRoles.jsx";
+import {ChampionPlaystyleInfo} from "./ChampionPlaystyleInfo.jsx";
 
 
 export const ChampionDetail = ({championSelected, setChampionSelected}) => {
@@ -62,7 +63,8 @@ export const ChampionDetail = ({championSelected, setChampionSelected}) => {
                         </h2>
                         <p className="ml-4 text-yellow-100 font-serif tracking-wider">{selectedHeroDetail.title}</p>
                         <ChampionRoles roles={selectedHeroDetail.roles}/>
+                        <ChampionPlaystyleInfo playstyleInfo={selectedHeroDetail.playstyleInfo}/>
                     </div>
                 </div>)}
-        </>)
+    </>)
 }

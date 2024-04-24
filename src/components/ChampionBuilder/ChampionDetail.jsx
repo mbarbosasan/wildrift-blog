@@ -2,12 +2,12 @@ import championSummary from "../../../public/assets/json/champion-summary.json";
 import {useEffect, useState} from "react";
 import {ChampionRoles} from "./ChampionRoles.jsx";
 import {ChampionPlaystyleInfo} from "./ChampionPlaystyleInfo.jsx";
+import {ChampionSkills} from "./ChampionSkills.jsx";
 
 
 export const ChampionDetail = ({championSelected, setChampionSelected}) => {
 
     const [selectedHeroDetail, setSelectedHeroDetail] = useState(null)
-    const [selectedHeroSplashArt, setSelectedHeroSplashArt] = useState(null)
     const cdBasePath = "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default"
     const basePath = "/assets/json/champion-detail"
 
@@ -64,7 +64,9 @@ export const ChampionDetail = ({championSelected, setChampionSelected}) => {
                         <p className="ml-4 text-yellow-100 font-serif tracking-wider">{selectedHeroDetail.title}</p>
                         <ChampionRoles roles={selectedHeroDetail.roles}/>
                         <ChampionPlaystyleInfo playstyleInfo={selectedHeroDetail.playstyleInfo}/>
+                        <ChampionSkills skills={selectedHeroDetail.spells} />
                     </div>
-                </div>)}
+                </div>
+            )}
     </>)
 }

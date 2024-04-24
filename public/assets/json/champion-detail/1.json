@@ -952,7 +952,7 @@
   ],
   "passive": {
     "name": "Pyromania",
-    "abilityIconPath": "/lol-game-data/assets/ASSETS/Characters/Annie/HUD/Icons2D/Annie_Passive.png",
+    "abilityIconPath": "/ASSETS/Characters/Annie/HUD/Icons2D/Annie_Passive.png",
     "abilityVideoPath": "champion-abilities/0001/ability_0001_P1.webm",
     "abilityVideoImagePath": "champion-abilities/0001/ability_0001_P1.jpg",
     "description": "After casting 4 spells, Annie's next offensive spell will stun the target.<br><br>Annie begins the game and respawns with Pyromania available."
@@ -961,7 +961,7 @@
     {
       "spellKey": "q",
       "name": "Disintegrate",
-      "abilityIconPath": "/lol-game-data/assets/ASSETS/Characters/Annie/HUD/Icons2D/Annie_Q.png",
+      "abilityIconPath": "/ASSETS/Characters/Annie/HUD/Icons2D/Annie_Q.png",
       "abilityVideoPath": "champion-abilities/0001/ability_0001_Q1.webm",
       "abilityVideoImagePath": "champion-abilities/0001/ability_0001_Q1.jpg",
       "cost": "@Cost@ @AbilityResourceName@",
@@ -1111,7 +1111,7 @@
     {
       "spellKey": "w",
       "name": "Incinerate",
-      "abilityIconPath": "/lol-game-data/assets/ASSETS/Characters/Annie/HUD/Icons2D/Annie_W.png",
+      "abilityIconPath": "/ASSETS/Characters/Annie/HUD/Icons2D/Annie_W.png",
       "abilityVideoPath": "champion-abilities/0001/ability_0001_W1.webm",
       "abilityVideoImagePath": "champion-abilities/0001/ability_0001_W1.jpg",
       "cost": "@Cost@ @AbilityResourceName@",
@@ -1261,7 +1261,7 @@
     {
       "spellKey": "e",
       "name": "Molten Shield",
-      "abilityIconPath": "/lol-game-data/assets/ASSETS/Characters/Annie/HUD/Icons2D/Annie_E.png",
+      "abilityIconPath": "/ASSETS/Characters/Annie/HUD/Icons2D/Annie_E.png",
       "abilityVideoPath": "champion-abilities/0001/ability_0001_E1.webm",
       "abilityVideoImagePath": "champion-abilities/0001/ability_0001_E1.jpg",
       "cost": "@Cost@ @AbilityResourceName@",
@@ -1411,7 +1411,7 @@
     {
       "spellKey": "r",
       "name": "Summon: Tibbers",
-      "abilityIconPath": "/lol-game-data/assets/ASSETS/Characters/Annie/HUD/Icons2D/Annie_R1.png",
+      "abilityIconPath": "/ASSETS/Characters/Annie/HUD/Icons2D/Annie_R1.png",
       "abilityVideoPath": "champion-abilities/0001/ability_0001_R1.webm",
       "abilityVideoImagePath": "champion-abilities/0001/ability_0001_R1.jpg",
       "cost": "@Cost@ @AbilityResourceName@",

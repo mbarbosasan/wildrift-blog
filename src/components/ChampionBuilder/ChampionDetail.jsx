@@ -64,7 +64,7 @@ export const ChampionDetail = ({championSelected, setChampionSelected}) => {
                         <p className="ml-4 text-yellow-100 font-serif tracking-wider">{selectedHeroDetail.title}</p>
                         <ChampionRoles roles={selectedHeroDetail.roles}/>
                         <ChampionPlaystyleInfo playstyleInfo={selectedHeroDetail.playstyleInfo}/>
-                        <ChampionSkills skills={selectedHeroDetail.spells} />
+                        <ChampionSkills skills={selectedHeroDetail.spells} selectedHeroState={selectedHeroDetail} />
                     </div>
                 </div>
             )}

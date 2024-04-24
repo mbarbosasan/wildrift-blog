@@ -1,11 +1,15 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-export const ChampionSkills = ({skills}) => {
+export const ChampionSkills = ({skills, selectedHeroState}) => {
 
     const [selectedSkill, setSelectedSkill] = useState(null)
 
     const basePath = 'https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default'
     const basePathAbilityPreview = "https://d28xe8vt774jo5.cloudfront.net/"
+
+    useEffect(() => {
+        setSelectedSkill(null)
+    }, [selectedHeroState]);
 
     return (
         <>

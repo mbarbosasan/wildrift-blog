@@ -9,7 +9,7 @@ export const ChampionContainer = () => {
 
     return (
         <main className="flex justify-center">
-            <div className="flex flex-col w-5/6">
+            <div className="flex flex-col sm:w-full md:w-5/6">
                 <ChampionDetail championSelected={championSelected} setChampionSelected={(hero) => setChampionSelected(hero)}/>
                 <ChampionListIcon setChampionSelected={(event) => setChampionSelected(event)} championSelected={championSelected}/>
             </div>

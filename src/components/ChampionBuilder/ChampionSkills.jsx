@@ -27,32 +27,32 @@ export const ChampionSkills = ({skills, selectedHeroState}) => {
                 ))}
             </div>
             {selectedSkill && (
-                <Card
-                    className="absolute
+                    <Card
+                        className="absolute
                      sm:w-5/6
                      md:w-3/6 md:h-3/6
                      md:left-1/4 bg-black bg-opacity-70 border-black">
-                    <CardHeader>
-                        <CardTitle className={"text-yellow-200 p-2 text-4xl text-center"}>{selectedSkill.name}</CardTitle>
-                    </CardHeader>
-                    <CardContent className={"flex flex-wrap-reverse justify-between"}>
-                        <CardDescription
-                            className="
+                        <CardHeader>
+                            <CardTitle className={"text-yellow-200 p-2 text-4xl text-center"}>{selectedSkill.name}</CardTitle>
+                        </CardHeader>
+                        <CardContent className={"flex flex-wrap-reverse justify-between"}>
+                            <CardDescription
+                                className="
                             text-yellow-200 font-serif p-2
                             md:w-2/4
                             sm:w-full
                             ">
-                            {selectedSkill.description}
-                        </CardDescription>
-                        <section className={"sm:w-full xl:w-2/4 md:min-w-[400px] sm:w-full sm:min-w-[400px]"}>
-                            <video src={`${basePathAbilityPreview}${selectedSkill.abilityVideoPath}`} muted
-                                   controls="true" autoPlay loop="true"/>
-                        </section>
-                    </CardContent>
-                    <CardFooter>
-                        <CardDescription>{selectedSkill.abilitySlot}</CardDescription>
-                    </CardFooter>
-                </Card>
+                                {selectedSkill.description}
+                            </CardDescription>
+                            <section className={"sm:w-full xl:w-2/4 md:min-w-[400px] sm:w-full sm:min-w-[400px]"}>
+                                <video src={`${basePathAbilityPreview}${selectedSkill.abilityVideoPath}`} muted
+                                       controls={true} autoPlay loop={true}/>
+                            </section>
+                        </CardContent>
+                        <CardFooter>
+                            <CardDescription>{selectedSkill.abilitySlot}</CardDescription>
+                        </CardFooter>
+                    </Card>
             )}
         </>
     )
